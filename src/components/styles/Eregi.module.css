@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Quicksand:wght@500&display=swap');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.logo1{
+    width: 30px;
+    height: 30px;
+}
+
+
+.logo{
+    font-size: 2em;
+    user-select: none;
+    font-weight: 800;
+    color: #223D56;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo::after{
+    content: "Sync";
+    color: #3FBAC3;
+}
+
+.navigation{
+    position: relative;
+    font-size: 1.1em;
+    color: #223D56;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    background: #fff;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #223D56;
+    font-weight: 500;
+}
+
+.btn1{
+    width: 150px;
+    height: 35px;
+    background: #3FBAC3;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.btn:hover{
+    width: 150px;
+    height: 35px;
+    background: #3FBAC3;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: .5s;
+}
+
+.ctn{
+    width: 85em;
+    height: 38em;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d9d9d9;
+    box-shadow: -5px 5px 5px 3px #bababa ;
+    margin-top: 30px;
+}
+
+.ctn1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    color: #3FBAC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ctn1 .lbl{
+    width: 80%;
+    height: 80%;
+}
+
+.lbl h2{
+    text-align: center;
+    font-size: 3.3em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #3FBAC3;
+}
+
+.lbl .p {
+    text-align: center; 
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #b3b3b3;
+}
+
+.lbl .p a {
+    color: #223D56;
+}
+
+.lbl .p a:hover {
+    color: #223D56;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.box p{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 500;
+    color: #3FBAC3;
+}
+
+.txtIcon {
+    position: absolute;
+    left: 6.3%;
+    top: 38.7%;
+    color: #c7c7c7;
+}
+
+.txtIcon2 {
+    position: absolute;
+    left: 6.3%;
+    top: 54%;
+    color: #c7c7c7;
+}
+
+.txtIcon3 {
+    position: absolute;
+    left: 6.3%;
+    top: 69.5%;
+    color: #c7c7c7;
+}
+
+.box input{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 50px;
+    color: #223D56;
+    font-size: 18px;
+}
+
+.box input::placeholder{
+    color: #c7c7c7;
+}
+
+.p1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p1 a {
+   color: #3FBAC3;
+}
+
+.box1{
+    height: 50px;
+}
+
+.p3{
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.p3a{
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+    padding-top: 10px;
+    text-decoration-line: underline;
+    font-weight: 500;
+    color: #223D56;
+    cursor: pointer;
+}
+
+.ctn2{
+    float: right;
+    width: 50%;
+    background-image: url("../../assets/bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: 40px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logoImg{
+    width: 50px;
+    height: 50px;
+}
+
+.ctn2 p{
+    text-align: center;
+    padding-top: 0px;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.displayImg{
+    width: 90%;
+    height: 60%;
+    transform: translate(0px, 30px);
+}
+
+.desc{
+    text-align: center;
+    font-size: 56px;
+}
+
+.desc::before{
+    content: "Statu";
+    color: #fff;
+}
+
+.desc::after{
+    content: "Sync";
+    color: #3FBAC3;
+}
+
+.p2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.button{
+    width: 180px;
+    height: 50px;
+    background: #3FBAC3;
+    border: 0px;
+    border-radius: 4px;
+    color: #223D56;
+
+    margin-left: 35%;
+    font-size: 20px;
+    cursor: pointer;
+    display: fixed;
+}
+
+.button:hover{
+    background: #223D56;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+
+.err{
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0px;
+    height: 40px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modalcontent {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #e9eaea;
+    padding: 30px 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.text{
+    font-size: 20px;
+    color: #223D56;
+}
+
+.p4{
+    text-align: justify;
+    padding-top: 10px;
+    color: #223D56;
+}
+
+.btnctn{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+}
+
+.btn2{
+    color: white;
+    background: #888888;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    color: white;
+    background: #3FBAC3;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.btn3{
+    color: white;
+    background: #3FBAC3;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    color: white;
+    background: #223D56;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}

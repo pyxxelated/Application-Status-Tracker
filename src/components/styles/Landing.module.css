@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+
+} 
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.logo1{
+    width: 30px;
+    height: 30px;
+}
+
+.logo{
+    font-size: 2em;
+    user-select: none;
+    font-weight: 800;
+    color: #223D56;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo::after{
+    content: "Sync";
+    color: #3FBAC3;
+}
+
+.navigation{
+    position: relative;
+    font-size: 1.1em;
+    color: #223D56;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    background: #3FBAC3;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn1{
+    width: 150px;
+    height: 35px;
+    background: #fff;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #223D56;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.btn1:hover{
+    width: 150px;
+    height: 35px;
+    background: #3FBAC3;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: 0.3s;
+}
+
+
+.ctn{
+    width: 201vh;
+    height: 100vh;
+}
+
+.sec1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box{
+    width: 70%;
+    height: auto;
+    transform: translate(170px, 250px);
+}
+
+.captionn{
+    font-size: 55px;
+}
+
+.caption{
+    padding-top: 10px;
+    font-size: 23px;
+    color: #b3b3b3;
+    font-weight: 500;
+}
+
+.sec2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.display1{
+    width: 90%;
+    height: 90%;
+    transform: translate(0px, 50px);
+}
+
+.ctn1{
+    background-color: #e8fbfd;
+    width: 201vh;
+    height: 15vh;
+}
+
+.ctn2{
+    width: 201vh;
+    height: 100vh;
+}
+
+.display2{
+    width: 50%;
+    height: 70%;
+    margin-top: 240px;
+    z-index: -1;
+    position: absolute;
+}
+
+.box2{
+    width: 55%;
+    height: 55%;
+    padding: 50px;
+    transform: translate(83%, 50px);
+    background-color: hsl(0, 3%, 94%);
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.caption1{
+    font-size: 55px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+text::before{
+    content: "Statu";
+    color: #223D56;
+    font-weight: 600;
+} 
+
+text::after{
+    content: "Sync";
+    color: #3FBAC3;
+    font-weight: 600;
+}
+
+
+.caption2{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.caption2::before{
+    content: "Application status tracking system";
+    color: #223D56;
+    font-weight: 300;
+}
+
+.line{
+    border: 3px solid black;
+    margin-top: 55px;
+    margin-left: 30%;
+    width: 40%;
+
+}
+
+.ctn3{
+    width: 201vh;
+    height: 95vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.ctn4{
+    width: 80%;
+    height: 80%;
+    transform: translate(0px, -130px);
+    display: flex;
+    justify-items: center;
+    box-shadow: 2px 5px 5px 1px #bdbcbc;
+}
+
+.ctn5{
+    height: 100%;
+    width: 33.33%;
+    padding: 60px;
+    text-align: center;
+}
+
+.ctn6{
+    height: 100%;
+    width: 33.33%;
+    padding: 60px;
+    text-align: center;
+}
+
+.ctn7{
+    height: 100%;
+    width: 33.33%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.caption4{
+    font-size: 40px;
+    color: #3FBAC3;
+    padding-bottom: 10px;
+}
+
+.caption5{
+    font-size: 20px;
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+.caption6{
+    font-size: 20px;
+    color: #b3b3b3;
+    font-weight: 300;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.ctn8{
+    width: 204vh;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    background-color: #232323;
+}
+
+
+.sec3{
+    padding-top: 40px;
+    height: 100%;
+    width: 31%;
+    text-align: center;
+}
+
+.sec4{
+    height: 80%;
+    width: 23%;
+    align-items: center;
+    padding: 50px;
+}
+
+.sec5{
+    height: 80%;
+    width: 23%;
+    align-items: center;
+    padding: 50px;
+}
+
+.sec6{
+    height: 80%;
+    width: 23%;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.sec7{
+    height: 6%;
+    width: 69%;
+    position: absolute;
+    transform: translate(45%, 15.1em);
+    text-align: center;
+    color: #b3b3b3;
+    padding-top: 15px;
+
+}
+
+.logo2{
+    height: 100px;
+    width: 100px;
+}
+
+.caption7{
+    font-size: 70px;
+}
+
+.caption7::before{
+    content: "Statu";
+    color: #fff
+}
+
+.caption7::after{
+    content: "Sync";
+    color: #3FBAC3
+}
+
+.caption8{
+    color: #3FBAC3;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.caption9{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.icon4{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.icon5{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 3px;
+}

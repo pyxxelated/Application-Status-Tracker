@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Quicksand:wght@500&display=swap');
+
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.logo1{
+    width: 30px;
+    height: 30px;
+}
+
+
+.logo{
+    font-size: 2em;
+    user-select: none;
+    font-weight: 800;
+    color: #223D56;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo::after{
+    content: "Sync";
+    color: #3FBAC3;
+}
+
+.navigation{
+    position: relative;
+    font-size: 1.1em;
+    color: #223D56;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #223D56;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.btn:active{
+    color: #3FBAC3;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #3FBAC3;
+    font-weight: 500;
+}
+
+.btn1{
+    background: #223D56;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    font-size: 1em;
+    border: 0px;
+    border-radius: 20px;
+    transform: translate(140px, 70px);
+}
+
+.ctn{
+    width: 204vh;
+    height: 100vh;
+    background-image: url("../../assets/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ctn1{
+    width: 180vh;
+    height: 50px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 6%;
+    border-radius: 15px;
+    padding-left: 15px;
+    background-image: linear-gradient(#3FBAC3, #223D56);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 13px;
+}
+
+.ctn2{
+    width: 89%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 180px;
+    border-radius: 15px;
+    background-color: #e8fbfd;
+    box-shadow: 3px 5px 3px 2px #a5a5a5;
+    padding: 20px;
+}
+
+.btn2{
+    border: 0px;
+    width: 150px;
+    background-color: #3FBAC3;
+    color: #223D56;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    outline: none ;
+}
+
+.btn2:hover{
+    border: 0px;
+    width: 150px;
+    background-color: #349aa1;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modalcontent {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #e9eaea;
+    padding: 14px 28px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.title1{
+    text-align: center;
+    font-size: 40px;
+    color: #223D56;
+}
+
+.txt1{
+    font-size: 17px;
+    padding-top: 20px;
+    color: #223D56;
+}
+
+.tb1{
+    width: 100%;
+    border: 0px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #223D56;
+    font-size: 14px;
+}
+
+.sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn3{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #a5a5a5;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn4{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #349aa1;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addedDiv{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #223D56;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+}
+
+.box1{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctnt{
+    width: 97%;
+    border: 1px solid;
+    height: 100%;
+    background-color: #223D56;
+    color: white;
+    padding-left: 15px;
+    padding-top: 2px;
+    border-radius: 15px;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 20px;
+}
+
+.icon1{
+    padding-top: 4px;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.circle{
+    height: 100%;
+    width: 30px;
+    background-color: #223D56;
+    border-radius: 20px;
+}
+
+.chckContainer {
+    display: flex; 
+    align-items: center; 
+    margin-left: 60px;
+    margin-bottom: 5px;
+  }
+  
+.chck {
+    margin-right: 10px;
+    border: 0px;
+}
+  
+
+.txt2 {
+    font-size: 17px;
+    color: #223D56;
+}
+
+
+.dropdown{
+    margin-bottom: 10px;
+}
+
+.ctn4{
+    border: 2px solid;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.txt6{
+    padding-top: 10PX;
+    color: #223D56;
+    font-size: 40px;
+}
+
+.txt7{
+    padding-top: 5px;
+    color: #223D56;
+    font-size: 20px;
+}
+
+.btn11{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background: #3FBAC3;
+    border: 0px;
+    color: #223D56;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn11:hover{
+    background: #223D56;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modalcontent1 {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #e9eaea;
+    padding: 14px 28px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.icon2{
+    font-size: 70px;
+    color: red;
+}
+
+.txt3{
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.txt4{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.ctnbtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn12{
+    width: 100px;
+    height: 30px;
+    background: #a5a5a5;
+    border: 0px;
+    border-radius: 4px;
+    color: #223D56;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn12:hover{
+    background: #e45e5c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn13{
+    width: 100px;
+    height: 30px;
+    background: #e45e5c;
+    border: 0px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn13:hover{
+    background: #ee4644;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logoutModal {
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    background-color: #4e4d4d;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    font-weight: 500;
+    width: 25%;
+    height: 21%;
+}
+
+/* Styling for the overlay background */
+.logoutOverlay {
+    /* display: none; Hide the overlay by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.btn9{
+    width: 100px;
+    height: 30px;
+    background: #a5a5a5;
+    border: 0px;
+    border-radius: 4px;
+    color: #223D56;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn9:hover{
+    background: #3FBAC3;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn10{
+    width: 100px;
+    height: 30px;
+    background: #3FBAC3;
+    border: 0px;
+    border-radius: 4px;
+    color: #223D56;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn10:hover{
+    background: #223D56;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.btnctn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

@@ -1,0 +1,124 @@
+.ctn{
+    width: 204vh;
+    height: 100vh;
+    background-image: linear-gradient(#d4f9fa, #e3fafb);
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+
+.box{
+    width: 30%;
+    height: 60%;
+    background-color: #e9eaea;
+    border-radius: 30px;
+    box-shadow: 5px 7px 4px 2px #c4c4c4;
+    text-align: center;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.logo1{
+    width: 40px;
+    height: 40px;
+}
+
+
+.logo{
+    font-size: 2.3em;
+    user-select: none;
+    font-weight: 800;
+    color: #223D56;
+    margin-bottom: 15px;
+}
+
+.logo::after{
+    content: "Sync";
+    color: #3FBAC3;
+}
+
+.text{
+    text-align: left;
+    color: #3FBAC3;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+
+.txtIcon {
+    position: absolute;
+    left: 56.3%;
+    top: 40%;
+    color: #c7c7c7;
+}
+
+.txtIcon2 {
+    position: absolute;
+    left: 56.3%;
+    top: 57.5%;
+    color: #c7c7c7;
+}
+
+
+.box input{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 50px;
+    color: #223D56;
+    font-size: 18px;
+    background-color: white;
+    outline: none;
+}
+
+.box input::placeholder{
+    color: #c7c7c7;
+}
+
+.txtIcon {
+    position: absolute;
+    left: 37.9%;
+    top: 40.9%;
+    color: #c7c7c7;
+}
+
+.txtIcon2 {
+    position: absolute;
+    left: 37.9%;
+    top: 52.6%;
+    color: #c7c7c7;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    background: #3FBAC3;
+    border: 0px;
+    border-radius: 4px;
+    color: #223D56;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background: #223D56;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.error{
+    height: 20px;
+    font-style: italic;
+    color: red;
+    font-size: 13px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+
